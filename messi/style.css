@@ -87,7 +87,7 @@ nav{
   height: 280px;
   margin-left: -42.5%;
   margin-top: 1.5%;
-  background: url(Enhet.jpg);
+  background: url("Enhet.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -190,6 +190,9 @@ background:white;
   }
   #Första {
    background-size: contain;
+  }
+  #box{
+    background-size: contain;
   }
 }
 @media screen and (max-width: 1360px) {
