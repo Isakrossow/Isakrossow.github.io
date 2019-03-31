@@ -191,9 +191,6 @@ background:white;
   #Första {
    background-size: contain;
   }
-  #box{
-    background-size: contain;
-  }
 }
 @media screen and (max-width: 1360px) {
   #ruta1{
