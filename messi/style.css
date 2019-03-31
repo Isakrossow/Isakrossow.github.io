@@ -182,7 +182,7 @@ background:white;
   #Text{
     margin-left: 5%;
     height: 10%;
-    width: 92%;
+    width: auto;
     margin-top: 200px;
   }
   #hem {
