@@ -179,7 +179,7 @@ background:white;
   }
   #Text{
     width: 40%;
-    margin-bottom: 0px;
+    margin-bottom: -40px;
   }
 }
 @media screen and (max-width: 1000px) {
