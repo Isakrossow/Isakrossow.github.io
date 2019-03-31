@@ -177,17 +177,13 @@ background:white;
   #Kontakt {
     font-size: 18px;
   }
-  #Text{
-    width: 40%;
-    margin-top: 100px;
-  }
 }
 @media screen and (max-width: 1000px) {
   #Text{
     margin-left: 5%;
     height: 10%;
     width: 92%;
-    margin-top: 460px;
+    margin-top: 200px;
   }
   #hem {
     padding-left: 10px;
