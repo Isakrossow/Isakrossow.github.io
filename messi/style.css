@@ -188,6 +188,9 @@ background:white;
     width: 92%;
     margin-top: 460px;
   }
+  #hem {
+    padding-left: 10px;
+  }
   #Första {
    background-size: contain;
   }
