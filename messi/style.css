@@ -202,3 +202,11 @@ background:white;
     margin-right: 10%;
   }
 }
+@media screen and (max-width: 1000px) {
+#form{
+  display: none;
+}
+#formulär{
+  margin-left: 50%;
+}
+}
