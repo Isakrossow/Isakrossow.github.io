@@ -202,11 +202,3 @@ background:white;
     margin-right: 10%;
   }
 }
-@media screen and (max-width: 1360px) {
-  #ruta1{
-    height: 127%;
-}
-  #ruta2{
-    height: 127%;
-}
-}
