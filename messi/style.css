@@ -199,7 +199,7 @@ background:white;
   }
   #form{
     float: right;
-    
+    margin-right: 10%;
   }
 }
 @media screen and (max-width: 1360px) {
