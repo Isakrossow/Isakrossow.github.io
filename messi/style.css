@@ -154,6 +154,10 @@ background:white;
   height:33%;
   background-color:#d8d6d6;
 }
+#skola{
+  background-color: blue;
+  position: fixed;
+}
 @media screen and (max-width: 800px) {
 #ruta{
     width: 100%;
