@@ -107,7 +107,6 @@ nav{
 #form{
   width: 25%;
   margin-left: 72%;
-  margin-top: -155px;
   line-height: 2;
 }
 #formulär{
@@ -121,16 +120,16 @@ nav{
   width: auto;
 }
 #mailadress{
-padding-left: 5%;
-padding-right: 5%;
-border-style:groove;
-background:white;
-}
-#Telefonnummer{
 padding-left: 20px;
 padding-right: 20px;
 border-style:groove;
 background:white;
+}
+#Telefonnummer{
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style:groove;
+  background:white;
 }
 .respons{
   height: auto;
