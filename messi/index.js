@@ -1,19 +1,19 @@
 
-$(document).ready(function(){
+$(document).ready(function(){ // IDEA: Startar javascript
 
-  $("#hem").show();
+  $("#hem").show(); // IDEA: gör så att texten eller knappen syns när javascript är på
 
-  $("#Tjänster").show();
+  $("#Tjänster").show(); // IDEA: gör så att texten eller knappen syns när javascript är på
 
-  $("#Kontakt").show();
+  $("#Kontakt").show(); // IDEA: gör så att texten eller knappen syns när javascript är på
 
-  $("#Meny").show();
+  $("#Meny").show(); // IDEA: gör så att texten eller knappen syns när javascript är på
 
   $('body').css({
-'overflow': 'hidden'
+'overflow': 'hidden' // IDEA: tar bort scrollen när
 });
 
-  $("nav").mouseenter(function(){
+  $("nav").mouseenter(function(){ // IDEA: när musen går på navbaren så ändras nyansen
     $("nav").css({opacity:1});
 
   });
@@ -45,11 +45,6 @@ $(document).ready(function(){
                  scrollTop: $("#tredje").offset().top-60
              }, 1000);
         });
-
-        $("nav").mouseenter(function(){
-          $("nav").css({opacity:1})
-
-         });
 
     $("#Meny").click(function() {
 
