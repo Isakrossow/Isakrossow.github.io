@@ -170,18 +170,18 @@ background:white;
     display: none;
 }
   #Meny {
-    font-size: 20px;
+    font-size: 120%;
   }
   #hem {
     margin-left: auto;
-    font-size: 18px;
-    padding-left: 10px;
+    font-size: 20%;
+    padding-left: 140%;
   }
   #Tjänster {
-    font-size: 18px;
+    font-size: 140%;
   }
   #Kontakt {
-    font-size: 18px;
+    font-size: 140%;
   }
 }
 @media screen and (max-width: 1000px) {
