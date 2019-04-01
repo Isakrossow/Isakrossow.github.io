@@ -197,6 +197,10 @@ background:white;
   #Första {
    background-size: contain;
   }
+  #form{
+    float: right;
+    
+  }
 }
 @media screen and (max-width: 1360px) {
   #ruta1{
