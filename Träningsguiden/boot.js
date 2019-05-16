@@ -31,11 +31,6 @@ $(document).ready(function(){
     }, 1000);
   });
 
-  $("nav").mouseenter(function(){
-    $("nav").css({opacity:1})
-
-  });
-
   $("#Meny").click(function() {
 
     $('html, body').animate({
