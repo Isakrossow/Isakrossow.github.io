@@ -45,6 +45,7 @@ $(document).ready(function(){
 
   $("#Kardio").show();
 
+  $("#Styrketräning").show();
 
   $("#Kost").show();
 

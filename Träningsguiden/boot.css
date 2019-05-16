@@ -33,6 +33,7 @@ p{
   letter-spacing: 1px;
 }
 #Styrketräning{
+  display: none;
   font-size: 160%;
   margin-top: -38px;
   padding-left: 10%;
