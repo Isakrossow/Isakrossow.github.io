@@ -43,9 +43,9 @@ $(document).ready(function(){
     }, 1000);
   });
 
-  $("#Styrketräning").show();
-
   $("#Kardio").show();
+
+  $("#Styrketräning").show();
 
   $("#Kost").show();
 
