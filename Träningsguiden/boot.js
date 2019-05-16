@@ -43,7 +43,7 @@ $(document).ready(function(){
     }, 1000);
   });
 
-  $("Styrketräning").show();
+  $("#Styrketräning").show();
 
   $("#Kardio").show();
 
