@@ -9,7 +9,7 @@ $(document).ready(function(){
     }, 1000);
   });
 
-  jQuery('body').css('overflow','hi')
+  jQuery('body').css('overflow','hidden')
 
   $('#träning').click(function() {
 
@@ -36,16 +36,19 @@ $(document).ready(function(){
 
   });
 
-  $("träning").click(function(){
-
-
-  });
-
   $("#Meny").click(function() {
 
     $('html, body').animate({
       scrollTop: $("#Första").offset().top-80
     }, 1000);
   });
+
+  $("Styrketräning").show();
+
+  $("#Kardio").show();
+
+  $("#Kost").show();
+
+  $("#träning").show();
 
 });

@@ -14,7 +14,8 @@ nav{
   background-color: #3d3d3d;
   display: flex;
 }
-h1{
+#träning{
+  display: none;
   letter-spacing: 4px;
   text-align: center;
   color: #f7eaea;
@@ -26,17 +27,20 @@ p{
   padding-top: 4%;
 }
 #Kost{
+  display: none;
   font-size: 160%;
   padding-left: 28%;
   letter-spacing: 1px;
 }
 #Styrketräning{
+  display: none;
   font-size: 160%;
   margin-top: -38px;
   padding-left: 10%;
   letter-spacing: 1px;
 }
 #Kardio{
+  display: none;
   font-size: 160%;
   margin-top: -38px;
   letter-spacing: 1px;
