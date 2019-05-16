@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<meta charset="UTF-8">
+  <style media="screen">
+#bild1{
+  display: none;
+}
+.container{
+  display: flex;
+}
+  </style>
+
+
+	</head>
+	<body>
+		<form action="#">
+			<fieldset>
+				<legend>Fyll i dina uppgifter</legend>
+
+            <div class="container">
+
+						<label for="phone">
+							<span>Telefonnummer: </span>
+						</label>
+						<input type="text" id="phone" name="tele" />
+						 <span id ="text"></span>
+</div>
+             <label for="Namn"><br></br>
+               <span>Efternamn: </span>
+             </label>
+             <input type="text" id="Namn" name="tele" />
+              <span id ="text"></span>
+
+              <div id="bild1">
+                <img src="https://images.vectorhq.com/images/previews/8c7/simple-red-checkmark-8646.png" alt="">
+              </div>
+
+
+			</fieldset>
+
+	   </form>
+ <script>
+
+
+
+	$(document).ready(function() {
+
+		$("#phone").keyup(function(){
+
+			var re = /^[0]{2}[0-9]{6,15}$/;    //måste börja med 2 st nollor, sedan 0-9 minst 6st max 15 där efter får de ej finnas något
+
+			var OK = re.exec($('#phone').val());
+
+			if (!OK) {
+				$('#bild1').show(3000);
+
+			}
+			else{
+
+				$('#text').text("ok");
+
+			}
+
+			if ($('#phone').val().length===0){
+				$('#text').text("");
+
+			}
+		});
+
+
+	});
+
+
+	</script>
+
+
+	</body>
+</html>
