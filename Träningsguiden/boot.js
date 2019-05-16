@@ -43,13 +43,13 @@ $(document).ready(function(){
     }, 1000);
   });
 
-  $("nav").mouseenter(function(){
-    $("nav").css({opacity:0.7});
+  $("nav").mouseleave(function(){
+    $("nav").css({opacity:1});
 
   });
 
-    $("nav").mouseleave(function(){
-      $("nav").css({opacity:1});
+    $("nav").mouseenter(function(){
+      $("nav").css({opacity:0.5});
 
     });
 
